@@ -1,0 +1,3 @@
+/home/gsz/北洋机甲/recognize/build/CMakeFiles/recognition.dir
+/home/gsz/北洋机甲/recognize/build/CMakeFiles/edit_cache.dir
+/home/gsz/北洋机甲/recognize/build/CMakeFiles/rebuild_cache.dir
