@@ -188,11 +188,7 @@ void ContourAnalysis::drawSimpleBounds(cv::Mat& image, const SimpleBounds& bound
     
     // 绘制边界矩形
     cv::rectangle(image, bounds.boundsRect, cv::Scalar(0, 255, 0), 2);
-    
-    cv::circle(image, bounds.topPoint, 3, cv::Scalar(0, 0, 255), -1);      // 红色
-    cv::circle(image, bounds.bottomPoint, 3, cv::Scalar(0, 0, 255), -1); 
-    cv::circle(image, bounds.leftPoint, 3, cv::Scalar(0, 0, 255), -1);     
-    cv::circle(image, bounds.rightPoint, 3, cv::Scalar(0, 0, 255), -1); 
+
     
     std::string info = "Pixels: " + std::to_string(bounds.whitePixelCount) + 
                       " Rect: " + std::to_string(bounds.boundsRect.width) + 
